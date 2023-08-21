@@ -4,7 +4,7 @@ Clone this repo
 ## Installations
 
 ### Go
-Make sure go is installed in your machine by checking go version - 
+Make sure go is installed on your machine by checking go version - 
 > go version
 
 If go is not installed, install using following commad - 
@@ -33,6 +33,7 @@ Also Update `POSTGRES_USER` variable in .env file of this project.
 Download ElasticSearch Locally using this [link](https://www.elastic.co/downloads/elasticsearch) and follow its steps to start elasticsearch.
 Navigate to elasticsearch folder and and make following changes in config/elasticsearch.yml -
 > Uncomment `transport.host` setting at the end of the file
+
 > turn `xpack.security.enabled` flag to `true`
 
 In elasticsearch folder, start elasticsearch using following command - 
